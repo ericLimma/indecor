@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inDecor | Portifólio</title>
+    <link rel="shortcut icon" href="./img/id.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Playfair+Display:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0740295107.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="flex">
+
+        <div class="event_disclaimer">
+            <h1 class="text_cor_ouro">InDecor</h1>
+            <p class="event_about">Descubra o mundo encantador da decoração: participe do nosso evento exclusivo!
+            </p>
+            <div class="event_date">
+                <p>Data do evento:</p>
+                <p class="text_cor_ouro">Domingo, 02 de julho, a partir das 14hrs</p>
+            </div>
+        </div>
+        <form class="form_container">
+            <p class="form_description">Preencha o formulário para receber os detalhes do evento</p>
+            <fieldset class="form_control flex">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" placeholder="Digite seu nome" />
+            </fieldset>
+            <fieldset class="form_control flex">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="seuemail@exemplo.com" />
+            </fieldset>
+            <fieldset class="form_control flex">
+                <label for="tel">Telefone</label>
+                <input type="tel" name="tel" id="tel" placeholder="(00) 0 0000 - 0000" />
+            </fieldset>
+            <fieldset class="form_control flex">
+                <label for="options">Principal Interesse</label>
+                <select name="options" id="options" title="Selecione uma opção">
+                    <option disabled>Selecione uma opção</option>
+                    <option value="design">Design</option>
+                    <option value="franchise">Franquias</option>
+                    <option value="house">Casa</option>
+                    <option value="garden">Jardim</option>
+                </select>
+            </fieldset>
+            <button class="btn" type="submit">Quero me inscrever</button>
+        </form>
+    </header>
+    <main>
+        <section class="flex">
+            <div class="benefits_title">
+                <h2>O que você vai aprender: </h2>
+            </div>
+            <div class="benefits_container flex">
+                <div class="img_box">
+                    <img src="./img/sqr-1.jpg" alt="">
+                    <p>As últimas tendências e técnicas de design de interiores para transformar seus espaços com estilo
+                        e inovação.</p>
+                </div>
+                <div class="img_box">
+                    <img src="./img/sqr-2.jpg" alt="">
+                    <p>Criar ambientes acolhedores e funcionais, aprendendo sobre cores, texturas, arranjos florais e
+                        muito mais.</p>
+                </div>
+                <div class="img_box">
+                    <img src="./img/sqr-3.jpg" alt="">
+                    <p>Selecionar os melhores produtos e materiais decorativos para valorizar sua estética pessoal e
+                        transformar seus espaços.</p>
+                </div>
+            </div>
+        </section>
+        <section class="flex">
+
+            <div class="location_container flex">
+                <div class="max-width address_container flex">
+                    <i class=" text_cor_ouro icon fa-solid fa-location-dot"></i>
+                    <div>
+                        <p>Rua Principal, 1234</p>
+                        <p> Bairro: Aquele</p>
+                        <p>Abertura: 14h</p>
+                    </div>
+                </div>
+                <div class="max-width locale_description flex">
+                    <h2 class="text_cor_ouro ">LOCAL DE DESTAQUE</h2>
+                    <p>O evento será realizado em um local prestigiado pelos amantes de Design de Interiores, onde
+                        teremos
+                        exemplos de vários ambientes, tanto internos como externos.</p>
+                </div>
+            </div>
+        </section>
+        <section class="flex">
+            <h2 class="details_title">Conheça os ambientes que voce vai aprender a decorar</h2>
+            <div class="details_container flex">
+                <div class="details flex">
+                    <div class="details_list flex flex-column">
+                        <h3>Detalhes</h3>
+                        <ul>
+                            <li>
+                                <p>Posicionamento</p>
+                            </li>
+                            <li>
+                                <p>Aproveitamento de espaço</p>
+                            </li>
+                            <li>
+                                <p>Combinação de cores</p>
+                            </li>
+                            <li>
+                                <p>Oragnização</p>
+                            </li>
+                            <li>
+                                <p>e muito mais...</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <img class="details_img" src="./img/hrz-4.jpg" alt="">
+                </div>
+                <div class="details flex flex-row-reverse">
+                    <div class="details_list flex flex-column">
+                        <h3>Objetos</h3>
+                        <ul>
+                            <li>
+                                <p>Cadeiras</p>
+                            </li>
+                            <li>
+                                <p>Mesas</p>
+                            </li>
+                            <li>
+                                <p>Espelhos</p>
+                            </li>
+                            <li>
+                                <p>Plantas</p>
+                            </li>
+                            <li>
+                                <p>Cortinas</p>
+                            </li>
+                            <li>
+                                <p>e muito mais...</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <img class="details_img" src="./img/hrz-5.jpg" alt="">
+
+                </div>
+            </div>
+
+        </section>
+        <section class="cta flex text_cor_ouro">
+            <h3>Gostou? Então se inscreva</h3>
+            <button class="cta_btn">Solicitar Inscrição</button>
+        </section>
+    </main>
+    <footer class="flex flex-column">
+
+        <h3>Indecor</h3>
+        <p>A evolução da decoração de interiores</p>
+        <div>
+            <p><strong>E-mail: </strong>oi@indecor.com.br</p>
+            <p><strong>Telefone: </strong>(99) 9 9999-9999</p>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
